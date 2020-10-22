@@ -29,7 +29,7 @@ GET /movies_by_name?name=Hardy&page=1
 Clone repo:
 
 ```bash
-$ git clone https://github.com/Luqqk/imdb-import.git
+$ git clone https://github.com/ExtRemoSolutions/imdb-importer.git
 ```
 
 Create venv in repository root dir (e.g):
@@ -44,7 +44,15 @@ Activate venv:
 $ source venv/bin/activate
 ```
 
+Install binary of psycopg2 (MacOS):
+
+```
+pip3 install psycopg2-binary
+```
+
 Install requirements:
+
+```
 
 ```bash
 $ pip install -r requirements.txt
