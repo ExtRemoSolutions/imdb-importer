@@ -52,16 +52,14 @@ pip3 install psycopg2-binary
 
 Install requirements:
 
-```
-
 ```bash
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 Import data to database: (Files to import **name.basics.tsv**, **title.basics.tsv** should be in the same path as **import_tsv.py** script). Supply database credentials in **import_tsv.py**.
 
 ```bash
-$ python import_tsv.py
+$ python3 import_tsv.py
 ```
 
 Edit **config.py** in the **/imdb_rest** dir (database credentials)
@@ -69,5 +67,5 @@ Edit **config.py** in the **/imdb_rest** dir (database credentials)
 Run application from the root repo dir (dev server):
 
 ```bash
-$ python run.py
+$ python3 run.py
 ```
